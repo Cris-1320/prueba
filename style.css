@@ -1,0 +1,80 @@
+*,*::after,*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(images/ULQ8UYA.jpg) no-repeat;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: red;
+}
+
+header nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+	border-bottom: 1px solid white;
+	float: right;
+}
+
+header nav ul li::after{
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	border-bottom: 5px solid red;
+}
+
+header nav ul li:hover{
+	transition: .2s;
+	border-bottom: 5px solid white;
+}
+
+hgroup h1{
+	color: white;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	position: absolute;
+	right: 0;
+	top: 30%;
+	text-transform: uppercase;
+	float: right;
+}
+
+.cuadrado{
+	position: absolute;
+	background: url(images/KB8YR92.png) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 200px;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-white{
+	color: #fff;
+}
+
+.cuadrado{
+	color: white;
+	padding: 1%;
+}
+
+.cuadrado p{
+	margin-left: 5%;
+}
+
+.fab{
+	color: #4267B2FF;
+	font-size: 40px;
+}
